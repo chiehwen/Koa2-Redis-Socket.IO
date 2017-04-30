@@ -1,0 +1,25 @@
+{
+  "name": "Koa2-Redis-Socket.IO",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "$(yarn bin)/nodemon src/app.js"
+  },
+  "repository": "https://github.com/chiehwen/Koa2-Redis-Socket.IO.git",
+  "author": "Chieh-Wen Yang <chuck.yang@hackathon.tw> (http://chiehwenyang.logdown.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-compose": "^4.0.0",
+    "koa-compress": "^2.0.0",
+    "koa-logger": "^2.0.1",
+    "koa-mount": "^3.0.0",
+    "koa-router": "^7.1.1",
+    "koa-static": "^3.0.0",
+    "mongoose": "^4.9.6",
+    "nodemon": "^1.11.0",
+    "redis": "^2.7.1",
+    "socket.io": "^1.7.3",
+    "socket.io-redis": "^4.0.0"
+  }
+}
